@@ -3,8 +3,12 @@
   "name": "com.footballpricer.www/oracle",
   "title": "FootballPricer Probability Oracle",
   "description": "Calibrated football probability oracle, +EV/Kelly edges, and <10ms Polymarket market re-pricer.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://www.footballpricer.com",
+  "repository": {
+    "url": "https://github.com/krisnafirdaus/footballpricer-polymarket-scanner",
+    "source": "github"
+  },
   "remotes": [
     {
       "type": "streamable-http",
@@ -12,7 +16,7 @@
       "headers": [
         {
           "name": "Authorization",
-          "description": "Bearer fp_live_... API key (100 free credits at https://www.footballpricer.com/#/app?tab=api-keys). Optional for get_track_record.",
+          "description": "Bearer fp_live_... API key (30 free credits at https://www.footballpricer.com/#/app?tab=api-keys). Optional for get_track_record.",
           "isRequired": false,
           "isSecret": true
         }
@@ -25,7 +29,7 @@
       "agentCard": "https://www.footballpricer.com/.well-known/agent-card.json",
       "llmsTxt": "https://www.footballpricer.com/llms.txt",
       "sseStream": "https://www.footballpricer.com/api/v1/oracle/stream",
-      "pricingModel": "1 credit = $0.01 USD (100 free sandbox credits on signup; optional x402 Base USDC)"
+      "pricingModel": "1 credit = $0.01 USD (30 free sandbox credits on signup; Agent Starter $49/mo, Agent Pro Bot $199/mo)"
     }
   }
 }

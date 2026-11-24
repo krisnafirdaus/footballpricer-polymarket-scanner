@@ -12,7 +12,8 @@ Evaluate live Polymarket / prediction-market probability shares or sportsbook de
 - **Public Track Record Audit (`0` credits, no API key)**: inspect live settled Brier Score vs sharp closing market, CLV%, and ROI% before running a single bot cycle.
 - **Sub-10ms Polymarket / Exchange Re-Pricer (`1` credit = `$0.01`)**: compare live probability shares (`0.01..0.99`) with slippage and commission adjustments.
 - **Confirmed XI Pass-2 SSE Feed**: stream real-time pre-match vs confirmed-lineup probability swings on `GET /api/v1/oracle/stream`.
-- **100 Free Sandbox Credits (`$1.00`, no card required)**: mint scoped `fp_live_...` API keys at <https://www.footballpricer.com/#/app?tab=api-keys>.
+- **30 Free Sandbox Credits (`$0.30` value — 30 live reprices or 6 cached forecasts, no card required)**: mint scoped `fp_live_...` API keys at <https://www.footballpricer.com/#/app?tab=api-keys>.
+- **Production Bot Plans**: **Agent Starter** (`$49/mo · 5,000 cr`, auto-refill) and **Agent Pro Bot** (`$199/mo · 25,000 cr`), plus one-time prepaid packs (`$25 / $100 / $500`).
 
 ---
 
