@@ -1,5 +1,7 @@
 # FootballPricer Polymarket & MCP Probability Oracle Quickstart
 
+[![FootballPricer Probability Oracle MCP connector – tool definition quality and endpoint health on Glama](https://glama.ai/mcp/connectors/com.footballpricer/football-pricer-probability-oracle/badges/score.svg)](https://glama.ai/mcp/connectors/com.footballpricer/football-pricer-probability-oracle)
+
 Zero-dependency Python 3 client and Remote MCP configuration kit for the **FootballPricer Calibrated Probability Oracle** (<https://www.footballpricer.com>).
 
 Evaluate live Polymarket / prediction-market probability shares or sportsbook decimal odds in **<10ms** against calibrated Dixon-Coles match probabilities, Fair Odds, EV%, and Fractional Kelly sizing, or connect Claude, Cursor, and autonomous agent frameworks directly via Streamable HTTP MCP.
