@@ -1,0 +1,31 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.footballpricer.www/oracle",
+  "title": "FootballPricer Probability Oracle",
+  "description": "Calibrated football probability oracle, +EV/Kelly edges, and <10ms Polymarket market re-pricer.",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.footballpricer.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.footballpricer.com/api/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer fp_live_... API key (100 free credits at https://www.footballpricer.com/#/app?tab=api-keys). Optional for get_track_record.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "serverCard": "https://www.footballpricer.com/.well-known/mcp/server-card.json",
+      "agentCard": "https://www.footballpricer.com/.well-known/agent-card.json",
+      "llmsTxt": "https://www.footballpricer.com/llms.txt",
+      "sseStream": "https://www.footballpricer.com/api/v1/oracle/stream",
+      "pricingModel": "1 credit = $0.01 USD (100 free sandbox credits on signup; optional x402 Base USDC)"
+    }
+  }
+}
